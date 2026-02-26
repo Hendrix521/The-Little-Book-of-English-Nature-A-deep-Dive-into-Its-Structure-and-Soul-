@@ -21,5 +21,4 @@ project:
     - file: chapters/ch12.md
 site:
   template: book-theme
-  options:
-    base_url: /The-Little-Book-of-English-Nature-A-deep-Dive-into-Its-Structure-and-Soul-
+  base_url: /The-Little-Book-of-English-Nature-A-deep-Dive-into-Its-Structure-and-Soul-
