@@ -26,6 +26,8 @@ jobs:
         run: |
           npm install -g mystmd
           myst build --html
+        env:
+          BASE_URL: /The-Little-Book-of-English-Nature-A-deep-Dive-into-Its-Structure-and-Soul-
 
       - uses: actions/upload-pages-artifact@v3
         with:
