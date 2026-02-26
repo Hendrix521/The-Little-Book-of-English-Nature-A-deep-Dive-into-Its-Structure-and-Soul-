@@ -1,0 +1,23 @@
+version: 1
+project:
+  title: English Grammar Book
+  toc:
+    - file: intro.md
+    - file: chapters/ch00.md
+    - file: chapters/ch01.md
+    - file: chapters/ch02.md
+    - file: chapters/ch03.md
+    - file: chapters/ch04.md
+    - file: chapters/ch05.md
+      children:
+        - file: chapters/ch05-1.md
+    - file: chapters/ch06.md
+    - file: chapters/ch07.md
+    - file: chapters/ch08.md
+    - file: chapters/ch09.md
+    - file: chapters/ch10.md
+    - file: chapters/ch11a.md
+    - file: chapters/ch11b.md
+    - file: chapters/ch12.md
+site:
+  template: book-theme
